@@ -4,6 +4,9 @@
 .claude/worktrees/
 .claude/*.lock
 .claude/settings.local.json
+# direnv's per-machine state for the committed .envrc (nix-direnv keeps
+# the shell's profile there unless direnv_layout_dir moves it out).
+.direnv/
 
 # Working documents (Loro snapshots) — never commit a user's file
 *.strop
