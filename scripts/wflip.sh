@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Scale-FLIP harness (docs/VISUAL-RIG.md): ONE headless output whose scale
 # flips mid-session. `swaymsg "output HEADLESS-1 scale 1"` drives the same
 # wl_surface buffer-scale path as moving the window between a 2x and a 1x

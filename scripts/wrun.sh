@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Run a Strop smoke script inside headless sway (no window on the user's
 # desktop — docs/VISUAL-RIG.md). For doc setup, state mutations, etc.
 #   scripts/wrun.sh file.strop [smoke keys...]
