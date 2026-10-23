@@ -883,7 +883,7 @@ Used by: codespan-reporting 0.13.1 self_cell 1.3.0 unicode-linebreak 0.1.5
 
 ================================================================================
 Apache License 2.0 (Apache-2.0)
-Used by: gethostname 1.1.0 ring 0.17.14 self-replace 1.5.0 similar 3.1.1
+Used by: gethostname 1.1.0 ring 0.17.14 self-replace 1.5.0 similar 3.2.0
 
                               Apache License
                         Version 2.0, January 2004
@@ -1295,7 +1295,7 @@ Apache License
 
 ================================================================================
 Apache License 2.0 (Apache-2.0)
-Used by: blake3 1.8.5 constant_time_eq 0.4.2 dunce 1.0.5 gl_generator 0.14.0 interprocess 2.4.3 khronos_api 3.1.0 rpassword 7.5.4 rtoolbox 0.0.5 ryu 1.0.23 spirv 0.4.0+sdk-1.4.341.0 stacksafe-macro 0.1.4 stacksafe 0.1.4
+Used by: blake3 1.8.7 constant_time_eq 0.4.2 dunce 1.0.5 gl_generator 0.14.0 interprocess 2.4.6 khronos_api 3.1.0 rpassword 7.5.4 rtoolbox 0.0.5 ryu 1.0.23 spirv 0.4.0+sdk-1.4.341.0 stacksafe-macro 0.1.4 stacksafe 0.1.4
 
 Apache License
 Version 2.0, January 2004
@@ -2826,7 +2826,7 @@ THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: winreg 0.55.0
+Used by: winreg 0.56.0
 
 Copyright (c) 2015 Igor Shaula
 
@@ -2940,7 +2940,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: gimli 0.32.3 heck 0.4.1 heck 0.5.0 leb128 0.2.7 unicode-bidi 0.3.18 unicode-normalization 0.1.25 unicode-segmentation 1.13.3 unicode-width 0.2.2 unicode-xid 0.2.6
+Used by: gimli 0.32.3 heck 0.4.1 heck 0.5.0 leb128 0.2.7 unicode-bidi 0.3.18 unicode-normalization 0.1.26 unicode-segmentation 1.13.3 unicode-width 0.2.2 unicode-xid 0.2.6
 
 Copyright (c) 2015 The Rust Project Developers
 
@@ -3423,7 +3423,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: proptest 1.10.0 proptest-macro 0.5.0 proptest-state-machine 0.8.0 proptest 1.11.0 rusty-fork 0.3.1
+Used by: proptest 1.10.0 proptest-macro 0.5.0 proptest-state-machine 0.8.0 proptest 1.12.0 rusty-fork 0.3.1
 
 Copyright (c) 2016 FullContact, Inc
 
@@ -4060,6 +4060,36 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
+Used by: core_detect 1.0.0
+
+Copyright (c) 2017-2020 The Rust Project Developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+================================================================================
+MIT License (MIT)
 Used by: enumflags2 0.7.12
 
 Copyright (c) 2017-2023 Maik Klein, Maja Kądziołka
@@ -4580,6 +4610,36 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
+Used by: rand_core 0.10.1
+
+Copyright (c) 2018-2026 The Rand Project Developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+================================================================================
+MIT License (MIT)
 Used by: zeroize 1.9.0
 
 Copyright (c) 2018-2026 The RustCrypto Project Developers
@@ -5044,7 +5104,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: zeroize_derive 1.5.0
+Used by: chacha20 0.10.2 zeroize_derive 1.5.0
 
 Copyright (c) 2019-2026 The RustCrypto Project Developers
 
@@ -5724,7 +5784,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ================================================================================
 MIT License (MIT)
-Used by: bit-set 0.8.0 bit-vec 0.8.0 bit-vec 0.9.1
+Used by: bit-set 0.11.1 bit-set 0.8.0 bit-vec 0.10.1 bit-vec 0.8.0 bit-vec 0.9.1
 
 Copyright (c) 2023 The Rust Project Developers
 
@@ -5981,7 +6041,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 
 ================================================================================
 MIT License (MIT)
-Used by: resvg 0.46.0 resvg 0.47.0 usvg 0.46.0 usvg 0.47.0
+Used by: resvg 0.46.0 resvg 0.48.1 usvg 0.46.0 usvg 0.48.1
 
 Copyright 2017 the Resvg Authors
 
@@ -6011,7 +6071,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: rand 0.8.7 rand 0.9.5 rand_chacha 0.3.1 rand_chacha 0.9.0 rand_core 0.6.4 rand_core 0.9.5 rand_xorshift 0.4.0
+Used by: rand 0.10.3 rand 0.8.7 rand 0.9.5 rand_chacha 0.3.1 rand_chacha 0.9.0 rand_core 0.6.4 rand_core 0.9.5 rand_xorshift 0.4.0 rand_xorshift 0.5.0
 
 Copyright 2018 Developers of the Rand project
 Copyright (c) 2014 The Rust Project Developers
@@ -6114,7 +6174,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: ureq-proto 0.6.0
+Used by: ureq-proto 0.6.5
 
 Copyright 2022 Martin Algesten
 
@@ -6225,6 +6285,32 @@ Used by: diff 0.1.13
 MIT License
 
 Copyright (c) 2015 Utkarsh Kukreti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+MIT License (MIT)
+Used by: imagesize 0.15.0
+
+MIT License
+
+Copyright (c) 2017 Maiddog
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
@@ -6552,7 +6638,7 @@ DEALINGS IN THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: ureq 3.3.0
+Used by: ureq 3.5.0
 
 MIT License
 
@@ -7189,7 +7275,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ================================================================================
 MIT License (MIT)
-Used by: xim-ctext 0.3.0 xim-parser 0.2.1 accesskit 0.24.1 accesskit_atspi_common 0.18.1 accesskit_consumer 0.36.0 accesskit_consumer 0.37.0 accesskit_consumer 0.38.0 accesskit_macos 0.26.3 accesskit_unix 0.21.1 accesskit_windows 0.33.1 append-only-bytes 0.1.12 arref 0.1.0 block2 0.6.2 block 0.1.6 chrono 0.4.45 dispatch2 0.3.1 generic-btree 0.10.7 gpu-descriptor-types 0.2.0 gpu-descriptor 0.3.2 harfrust 0.5.2 hyphenation_commons 0.8.4 jni-sys-macros 0.4.1 leak 0.1.2 leaky-cow 0.1.1 libm 0.2.16 loro-internal 1.13.9 lyon 1.0.19 lyon_algorithms 1.0.20 lyon_geom 1.0.19 lyon_path 1.0.19 lyon_tessellation 1.0.20 malloc_buf 0.0.6 md5 0.7.0 minisign-verify 0.2.5 minisign 0.9.1 ndk-sys 0.6.0+11769913 objc-sys 0.3.5 objc2-app-kit 0.2.2 objc2-app-kit 0.3.2 objc2-core-foundation 0.3.2 objc2-encode 4.1.0 objc2-foundation 0.2.2 objc2-foundation 0.3.2 objc2-metal 0.3.2 objc2-quartz-core 0.3.2 objc2 0.5.2 objc2 0.6.4 pathfinder_geometry 0.5.1 pathfinder_simd 0.5.6 profiling-procmacros 1.0.18 profiling 1.0.18 r-efi 5.3.0 r-efi 6.0.0 seahash 4.1.0 serde_columnar 0.3.14 serde_columnar_derive 0.3.7 siphasher 1.0.3 svg_fmt 0.4.5 taffy 0.10.1 whatlang 0.18.0 winapi-i686-pc-windows-gnu 0.4.0 winapi-x86_64-pc-windows-gnu 0.4.0 windows-collections 0.2.0 windows-collections 0.3.2 windows-core 0.61.2 windows-core 0.62.2 windows-future 0.2.1 windows-future 0.3.2 windows-implement 0.60.2 windows-interface 0.59.3 windows-link 0.1.3 windows-link 0.2.1 windows-numerics 0.2.0 windows-numerics 0.3.1 windows-registry 0.5.3 windows-result 0.3.4 windows-result 0.4.1 windows-strings 0.4.2 windows-strings 0.5.1 windows-sys 0.52.0 windows-sys 0.59.0 windows-sys 0.61.2 windows-targets 0.52.6 windows-threading 0.1.0 windows-threading 0.2.1 windows 0.61.3 windows 0.62.2 windows_aarch64_gnullvm 0.52.6 windows_aarch64_msvc 0.52.6 windows_i686_gnu 0.52.6 windows_i686_gnullvm 0.52.6 windows_i686_msvc 0.52.6 windows_x86_64_gnu 0.52.6 windows_x86_64_gnullvm 0.52.6 windows_x86_64_msvc 0.52.6
+Used by: xim-ctext 0.3.0 xim-parser 0.2.1 accesskit 0.24.1 accesskit_atspi_common 0.18.1 accesskit_consumer 0.36.0 accesskit_consumer 0.37.0 accesskit_consumer 0.38.0 accesskit_macos 0.26.3 accesskit_unix 0.21.1 accesskit_windows 0.33.1 append-only-bytes 0.1.12 arref 0.1.0 block2 0.6.2 block 0.1.6 chrono 0.4.45 dispatch2 0.3.1 generic-btree 0.10.7 gpu-descriptor-types 0.2.0 gpu-descriptor 0.3.2 harfrust 0.5.2 hyphenation_commons 0.8.4 jni-sys-macros 0.4.1 leak 0.1.2 leaky-cow 0.1.1 libm 0.2.16 loro-internal 1.17.1 lyon 1.0.19 lyon_algorithms 1.0.20 lyon_geom 1.0.19 lyon_path 1.0.19 lyon_tessellation 1.0.20 malloc_buf 0.0.6 md5 0.7.0 minisign-verify 0.2.5 minisign 0.9.1 ndk-sys 0.6.0+11769913 objc-sys 0.3.5 objc2-app-kit 0.2.2 objc2-app-kit 0.3.2 objc2-core-foundation 0.3.2 objc2-encode 4.1.0 objc2-foundation 0.2.2 objc2-foundation 0.3.2 objc2-metal 0.3.2 objc2-quartz-core 0.3.2 objc2 0.5.2 objc2 0.6.4 pathfinder_geometry 0.5.1 pathfinder_simd 0.5.6 profiling-procmacros 1.0.18 profiling 1.0.18 r-efi 5.3.0 r-efi 6.0.0 seahash 4.1.0 serde_columnar 0.3.14 serde_columnar_derive 0.3.7 siphasher 1.0.3 svg_fmt 0.4.5 taffy 0.10.1 whatlang 0.18.0 winapi-i686-pc-windows-gnu 0.4.0 winapi-x86_64-pc-windows-gnu 0.4.0 windows-collections 0.2.0 windows-collections 0.3.2 windows-core 0.61.2 windows-core 0.62.2 windows-future 0.2.1 windows-future 0.3.2 windows-implement 0.60.2 windows-interface 0.59.3 windows-link 0.1.3 windows-link 0.2.1 windows-numerics 0.2.0 windows-numerics 0.3.1 windows-registry 0.5.3 windows-result 0.3.4 windows-result 0.4.1 windows-strings 0.4.2 windows-strings 0.5.1 windows-sys 0.52.0 windows-sys 0.59.0 windows-sys 0.61.2 windows-targets 0.52.6 windows-threading 0.1.0 windows-threading 0.2.1 windows 0.61.3 windows 0.62.2 windows_aarch64_gnullvm 0.52.6 windows_aarch64_msvc 0.52.6 windows_i686_gnu 0.52.6 windows_i686_gnullvm 0.52.6 windows_i686_msvc 0.52.6 windows_x86_64_gnu 0.52.6 windows_x86_64_gnullvm 0.52.6 windows_x86_64_msvc 0.52.6
 
 MIT License
 
@@ -7523,7 +7609,7 @@ SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: loro-common 1.13.1 loro-rle 1.6.0 loro 1.13.9
+Used by: loro-common 1.17.0 loro-rle 1.6.0 loro 1.17.1
 
 MIT License Copyright (c) 2023 Zixuan Chen
 
@@ -7574,7 +7660,7 @@ THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: loro-kv-store 1.13.9
+Used by: loro-kv-store 1.17.0
 
 MIT License Copyright (c) 2024 Zixuan Chen
 
@@ -7627,7 +7713,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ================================================================================
 MIT License (MIT)
-Used by: zed-font-kit 0.14.1-zed adler2 2.0.1 anyhow 1.0.104 async-channel 2.5.0 async-executor 1.14.0 async-fs 2.2.0 async-io 2.6.0 async-lock 3.4.2 async-net 2.0.0 async-process 2.5.0 async-signal 0.2.14 async-task 4.7.1 async-trait 0.1.91 atomic-waker 1.1.2 blocking 1.6.2 concurrent-queue 2.5.0 displaydoc 0.2.6 dyn-clone 1.0.20 endi 1.1.1 erased-serde 0.4.10 event-listener-strategy 0.5.4 event-listener 5.4.1 fastrand 2.5.0 futures-lite 2.6.1 hermit-abi 0.5.2 home 0.5.12 inventory 0.3.24 itoa 1.0.18 khronos-egl 6.0.0 linux-raw-sys 0.12.1 linux-raw-sys 0.4.15 minimal-lexical 0.2.1 once_cell 1.21.4 ordered-stream 0.2.0 parking 2.2.1 paste 1.0.15 pest 2.8.8 pest_derive 2.8.8 pest_generator 2.8.8 pest_meta 2.8.8 pin-project-internal 1.1.13 pin-project-lite 0.2.17 pin-project 1.1.13 piper 0.2.5 polling 3.11.0 portable-atomic-util 0.2.7 portable-atomic 1.14.0 prettyplease 0.2.37 proc-macro-crate 3.5.0 proc-macro2 1.0.107 quote 1.0.47 ref-cast-impl 1.0.26 ref-cast 1.0.26 rustc-hash 1.1.0 rustix 0.38.44 rustix 1.1.4 rustversion 1.0.23 semver 1.0.28 serde 1.0.229 serde_bytes 0.11.19 serde_core 1.0.229 serde_derive 1.0.229 serde_derive_internals 0.29.1 serde_json 1.0.151 serde_repr 0.1.21 smol 2.0.2 smol_str 0.3.6 syn 1.0.109 syn 2.0.119 syn 3.0.3 thiserror-impl 1.0.69 thiserror-impl 2.0.19 thiserror 1.0.69 thiserror 2.0.19 typeid 1.0.3 unicode-ident 1.0.24 utf8-zero 0.8.1 waker-fn 1.2.0 wasi 0.11.1+wasi-snapshot-preview1 wasip2 1.0.4+wasi-0.2.12 wasm_thread 0.3.3 wit-bindgen 0.57.1 zbus-lockstep-macros 0.5.2 zbus-lockstep 0.5.2 zmij 1.0.23 zvariant_utils 3.5.0
+Used by: zed-font-kit 0.14.1-zed adler2 2.0.1 anyhow 1.0.104 async-channel 2.5.0 async-executor 1.14.0 async-fs 2.2.0 async-io 2.6.0 async-lock 3.4.2 async-net 2.0.0 async-process 2.5.0 async-signal 0.2.14 async-task 4.7.1 async-trait 0.1.91 atomic-waker 1.1.2 blocking 1.6.2 concurrent-queue 2.5.0 displaydoc 0.2.6 dyn-clone 1.0.20 endi 1.1.1 erased-serde 0.4.10 event-listener-strategy 0.5.4 event-listener 5.4.1 fastrand 2.5.0 futures-lite 2.6.1 hermit-abi 0.5.2 home 0.5.12 inventory 0.3.24 itoa 1.0.18 khronos-egl 6.0.0 linux-raw-sys 0.12.1 linux-raw-sys 0.4.15 minimal-lexical 0.2.1 once_cell 1.21.4 ordered-stream 0.2.0 parking 2.2.1 paste 1.0.15 pest 2.8.8 pest_derive 2.8.8 pest_generator 2.8.8 pest_meta 2.8.8 pin-project-internal 1.1.13 pin-project-lite 0.2.17 pin-project 1.1.13 piper 0.2.5 polling 3.11.0 portable-atomic-util 0.2.7 portable-atomic 1.14.0 prettyplease 0.2.37 proc-macro-crate 3.5.0 proc-macro2 1.0.107 quote 1.0.47 ref-cast-impl 1.0.26 ref-cast 1.0.26 rustc-hash 1.1.0 rustix 0.38.44 rustix 1.1.4 rustversion 1.0.23 semver 1.0.28 serde 1.0.229 serde_bytes 0.11.19 serde_core 1.0.229 serde_derive 1.0.229 serde_derive_internals 0.29.1 serde_json 1.0.154 serde_repr 0.1.21 smol 2.0.2 smol_str 0.3.6 syn 1.0.109 syn 2.0.119 syn 3.0.3 thiserror-impl 1.0.69 thiserror-impl 2.0.19 thiserror 1.0.69 thiserror 2.0.19 typeid 1.0.3 unicode-ident 1.0.24 utf8-zero 0.8.1 waker-fn 1.2.0 wasi 0.11.1+wasi-snapshot-preview1 wasip2 1.0.4+wasi-0.2.12 wasm_thread 0.3.3 wit-bindgen 0.57.1 zbus-lockstep-macros 0.5.2 zbus-lockstep 0.5.2 zmij 1.0.23 zvariant_utils 3.5.0
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -8295,7 +8381,7 @@ SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
-Used by: embed-resource 3.0.11
+Used by: embed-resource 3.0.12
 
 The MIT License (MIT)
 
@@ -8609,6 +8695,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+================================================================================
+MIT License (MIT)
+Used by: base64 0.23.1
+
+The MIT License (MIT)
+
+Copyright (c) 2025 Alice Maz, Marshall Pierce
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 ================================================================================
 MIT License (MIT)
@@ -9995,7 +10107,7 @@ Exhibit B - &quot;Incompatible With Secondary Licenses&quot; Notice
 
 ================================================================================
 Unicode License v3 (Unicode-3.0)
-Used by: unicode-ident 1.0.24
+Used by: unicode-ident 1.0.24 unicode-normalization 0.1.26
 
 UNICODE LICENSE V3
 

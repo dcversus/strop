@@ -21,3 +21,30 @@ accepted = [
     "0BSD",
     "bzip2-1.0.6",
 ]
+
+# miniz_oxide ships its MIT terms twice — LICENSE and LICENSE-MIT.md,
+# identical but for one blank line. cargo-about ranks candidate files by
+# license and confidence only, with no path tie-break, so the copy that
+# lands in the output is whichever the directory walk returns first: an
+# ext4 hash order locally, something else on a CI runner. That one blank
+# line has flipped the attribution gate red on PRs that never touched
+# it. Naming the file removes the choice. The checksum pins this
+# version's text; if a bump changes it, cargo-about warns and falls back
+# to harvesting, and the gate will say so.
+[miniz_oxide.clarify]
+license = "MIT OR Zlib OR Apache-2.0"
+
+[[miniz_oxide.clarify.files]]
+path = "LICENSE"
+license = "MIT"
+checksum = "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b"
+
+[[miniz_oxide.clarify.files]]
+path = "LICENSE-ZLIB.md"
+license = "Zlib"
+checksum = "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39"
+
+[[miniz_oxide.clarify.files]]
+path = "LICENSE-APACHE.md"
+license = "Apache-2.0"
+checksum = "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
