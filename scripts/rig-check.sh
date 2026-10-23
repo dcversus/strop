@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Headless integration checks (docs/VISUAL-RIG.md): drive REAL GPUI through
 # STROP_SMOKE and assert, against an actually-rendered frame, the margin
 # invariants the packer proptests can only cover in the pure layer — no two

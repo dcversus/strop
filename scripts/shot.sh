@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Autonomous visual verification (Phase F): run Strop as an XWayland
 # client (x11 backend; X windows are capturable under GNOME Wayland,
 # unlike Wayland-native ones) and screenshot it with ImageMagick.

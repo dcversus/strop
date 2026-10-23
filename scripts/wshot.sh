@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Wayland-native visual rig (docs/VISUAL-RIG.md): headless sway + grim.
 # Fully isolated from the user session — nothing appears on the desktop.
 #   scripts/wshot.sh out.png scale [file.strop] [smoke keys...]
