@@ -19,6 +19,13 @@ sudo apt-get install -y pkg-config libwayland-dev libxkbcommon-dev \
   libasound2-dev libfontconfig-dev libssl-dev libxcb1-dev libx11-dev libxext-dev
 ```
 
+With Nix, `flake.nix` carries all of that instead: the pinned compiler (read
+from `rust-toolchain.toml`, so it cannot drift from CI's), the gpui libraries,
+and the tools the visual rig, `cargo deny`, the attribution check and the
+packaging checks call — including `cargo-about` at the exact version CI pins.
+`nix develop`, or let direnv load it from the committed `.envrc`. The shell has
+no `rustfmt`, deliberately (see below).
+
 Then:
 
 ```sh

@@ -7,8 +7,12 @@ brief, not here.)*
 
 ## Toolchain
 
-`cargo`/`rustc`/`rustup` on PATH are snap shims that fail in
-sandboxes. Always use the pinned toolchain directly:
+Inside the flake's dev shell (`nix develop`, or direnv via
+`.envrc`), `cargo` on PATH IS the pinned toolchain — use it as is;
+the `TC=` recipe below does not apply there.
+
+Outside it, `cargo`/`rustc`/`rustup` on PATH are snap shims that
+fail in sandboxes. Always use the pinned toolchain directly:
 
 ```
 TC=$HOME/.rustup/toolchains/1.96.0-x86_64-unknown-linux-gnu/bin
