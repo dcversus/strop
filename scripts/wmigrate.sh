@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Multi-monitor scale-change repro (docs/VISUAL-RIG.md): launch Strop on a
 # 2x headless output, move it to a 1x output, capture before/after.
 #   scripts/wmigrate.sh prefix file.strop [smoke keys...]
