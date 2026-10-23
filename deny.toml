@@ -44,6 +44,15 @@ ignore = [
     "RUSTSEC-2026-0247", # bitmaps
     "RUSTSEC-2026-0248", # im
     "RUSTSEC-2026-0251", # sized-chunks
+    # `zbus_names`, `zvariant` and `zvariant_derive` "unmaintained" (announced
+    # 2026-10) — not abandoned but folded into zbus 6.0 as its own modules.
+    # Every zbus here is 5.x and arrives through gpui_linux (accesskit_unix,
+    # oo7, ashpd); none of those has a zbus 6 release to move to, so the move
+    # is an upstream one, through kirushik/zed. REVISIT by 2027-01, or when
+    # the gpui pin moves.
+    "RUSTSEC-2026-0370",
+    "RUSTSEC-2026-0371",
+    "RUSTSEC-2026-0372",
 ]
 
 [licenses]
