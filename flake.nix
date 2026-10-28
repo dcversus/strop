@@ -126,6 +126,18 @@
             ];
 
             LD_LIBRARY_PATH = lib.makeLibraryPath runtimeLibs;
+
+            # `nix develop` replaces the variables the shell's own build
+            # sets and passes every other one through from the calling
+            # environment. A buildFHSEnv's /etc/profile (the Claude
+            # desktop app runs inside one) exports
+            # NIX_CFLAGS_LINK="-L/usr/lib -L/usr/lib32", which this shell
+            # never sets, so the cc wrapper would hand that to every link:
+            # libc and libm resolve from the FHS glibc instead of the
+            # wrapper's, the binary takes symbol versions its own loader
+            # lacks, and it fails at start-up once the two glibcs part.
+            # Owning the variable, empty, keeps the link inside the shell.
+            NIX_CFLAGS_LINK = "";
           };
         }
       );
