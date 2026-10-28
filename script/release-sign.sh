@@ -231,7 +231,14 @@ minisign -Vm "$work/final-download/latest.json" \
   || die "final primary signature verification failed"
 
 if (( sign_only )); then
-  echo "$tag manifest signed, signature uploaded and re-verified; the draft remains UNPUBLISHED (--sign-only). Rehearsal complete: delete the draft, the tag, and the branch when done."
+  echo "$tag manifest signed, signature uploaded and re-verified; the draft remains UNPUBLISHED (--sign-only)."
+  # Cleanup advice belongs to the v0.0.N rehearsal series alone; telling a
+  # real release to delete its draft and tag is how accidents happen.
+  if [[ $version == 0.0.* ]]; then
+    echo "Rehearsal complete: delete the draft, the tag, and the branch when done."
+  else
+    echo "Real release: continue with $0 $version (no --sign-only) to verify, publish, and run the canary."
+  fi
   exit 0
 fi
 
