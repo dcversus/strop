@@ -7,13 +7,27 @@ versions may still break things).
 
 ## [Unreleased]
 
+## [0.3.2] — 2026-10-28
+
+A hotfix: Strop opens on macOS again, and the dependencies step past this
+autumn's security advisories.
+
 ### Fixed
 - **macOS**: Strop opens again. The 0.3.x app bundle was signed and
   notarized but its `Info.plist` never declared itself an application
   (`CFBundlePackageType`), so Gatekeeper refused every launch with
   "Apple could not verify Strop is free of malware". The release job
   now checks the bundle the way a double-click does, so this can't
-  ship green again.
+  ship green again. If 0.3.0 or 0.3.1 never opened for you, download
+  0.3.2 by hand — the copy you have can't start, so it can't update
+  itself either.
+
+### Changed
+- Security updates: the TLS stack behind update checks (rustls,
+  rustls-webpki, webpki-roots) moves past six advisories, and the
+  parser behind opening and pasting Markdown (pulldown-cmark) past
+  RUSTSEC-2026-0414 — which needs a parser option Strop never turns
+  on, but the patch release carries other fixes too.
 
 ## [0.3.1] — 2026-08-11
 
@@ -339,7 +353,8 @@ unverified and unsigned.
 - Configuration via `~/.config/strop/config.toml`.
 - GPL-3.0-or-later. Supply-chain gating (cargo-deny) and three-OS CI.
 
-[Unreleased]: https://github.com/kirushik/strop/compare/v0.3.1...HEAD
+[Unreleased]: https://github.com/kirushik/strop/compare/v0.3.2...HEAD
+[0.3.2]: https://github.com/kirushik/strop/releases/tag/v0.3.2
 [0.3.1]: https://github.com/kirushik/strop/releases/tag/v0.3.1
 [0.3.0]: https://github.com/kirushik/strop/releases/tag/v0.3.0
 [0.2.0]: https://github.com/kirushik/strop/releases/tag/v0.2.0

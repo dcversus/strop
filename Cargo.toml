@@ -3,7 +3,7 @@ resolver = "2"
 members = ["crates/strop-core", "crates/strop-app", "xtask"]
 
 [workspace.package]
-version = "0.3.1"
+version = "0.3.2"
 edition = "2024"
 license = "GPL-3.0-or-later"
 # The floor is the pin. rust-toolchain.toml selects 1.96.0 and that is the
