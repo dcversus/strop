@@ -47,7 +47,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/kirushik/strop/releases/download/v0.3.1/strop-0.3.1-x86_64-unknown-linux-gnu-flathub.tar.gz
-        sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+        sha256: "d8b3819f1dd1ef4784480ef1a3f1373762d5ccdce83608d750968611898b5547"
         only-arches: [x86_64]
         x-checker-data:
           type: json
